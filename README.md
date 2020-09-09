@@ -152,3 +152,16 @@ xxxx.exe c:\wwww\upload\1.jsp
 ### 5. 视频展示：
 
 ![](./imgs/webshell计划任务后门.gif)
+
+
+## 0x10. regeditBypassUAC
+
+功能：过uac执行exe，编译好的exe只适用于win10，win7不行
+
+### 1. 具体过程
+
+[基于白名单程序注册表bypassUAC](./regeditBypassUAC/README.md)
+
+### 2. 视频演示
+
+![](./regeditBypassUAC/imgs/regeditBypassUAC.gif)
