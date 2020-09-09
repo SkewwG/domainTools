@@ -165,3 +165,24 @@ xxxx.exe c:\wwww\upload\1.jsp
 ### 2. 视频演示
 
 ![](./regeditBypassUAC/imgs/regeditBypassUAC.gif)
+
+
+## 0x11. delegationVul
+
+功能：检测内网域的约束委派
+
+### 1. 约束委派利用
+
+[约束委派利用](./delegationVul/约束委派利用.md)
+
+### 2. 视频演示
+
+![](./delegationVul/imgs/约束委派利用过程.gif)
+
+### 3. 基于资源的约束委派利用
+
+[基于资源的约束委派利用](./delegationVul/基于资源的约束委派利用.md)
+
+### 4. 视频演示
+
+![](./delegationVul/imgs/基于资源的约束委派利用.gif)
