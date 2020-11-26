@@ -211,5 +211,10 @@ C:\Users\xxxxxxx\AppData\Roaming\360se6\User Data\Default\apps\LoginAssis
 有收藏夹的url和保存密码的url
 ```
 
-![](./imgs/360SafeBrowserDecrypt.png)
+![](./imgs/360SafeBrowserDecrypt.jpg)
+
+分析文章：
+
+[动态调试360安全浏览器获取密钥](https://skewwg.github.io/2020/11/26/dong-tai-diao-shi-360-an-quan-liu-lan-qi-huo-qu-mi-yao/)
+
 
